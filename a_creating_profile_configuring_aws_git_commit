@@ -1,0 +1,25 @@
+##Creating profile and configuring environment for aws cli
+1.yum install -y wget
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+pip install aws cli
+aws configure --profile manish
+give access key
+give secret key 
+give the region detailsgit config --global credential.helper '!aws --profile CodeCommitProfile codecommit credential-helper $@'    
+default out put as json
+git config --global credential.UseHttpPath true
+git clone <give_profile_name>
+git config user.emial
+git config user.name
+vi index.html
+<h1>Hello World</h1>
+git status
+git add *
+git commit -m 'initial commit'
+git push origin master
+cd ..
+git commit -a
+git -history
+git log
+
